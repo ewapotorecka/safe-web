@@ -18,11 +18,7 @@ export default function ContactPage() {
           For product questions, support requests, or partnership discussions, contact Safe through
           the official distribution channel or support method connected to the live app listing.
         </p>
-        <p>
-          If you are evaluating Safe for family safety, trusted contact workflows, or Ukraine-focused
-          coordination, this page can serve as the main contact destination for search engines and
-          users navigating the site.
-        </p>
+        
       </div>
     </main>
   );

@@ -151,6 +151,7 @@ const COPY = {
     footer: {
       privacy: "Privacy Policy",
       terms: "Terms",
+      deleteAccount: "Delete Account",
       contact: "Contact",
       rights: "Made with care for families and friends." 
     }
@@ -306,6 +307,7 @@ const COPY = {
     footer: {
       privacy: "Політика приватності",
       terms: "Умови",
+      deleteAccount: "Видалити акаунт",
       contact: "Контакт",
       rights: "З турботою про родини та друзів." 
     }
