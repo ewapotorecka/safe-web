@@ -4,6 +4,7 @@ const repo = 'safe-web'
 
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
   basePath: `/${repo}`,
   assetPrefix: `/${repo}/`,
   images: {
