@@ -46,13 +46,13 @@ export default function Home() {
       />
 
       <Header t={t} lang={lang} setLang={setLang} />
-      <HeroSection t={t} lang={lang} />
-      <OverviewSection lang={lang} />
+      <HeroSection t={t} />
+      <OverviewSection t={t} />
       <FeaturesSection t={t} />
-      <HowSection t={t} lang={lang} />
-      <UkraineSection t={t} lang={lang} />
-      <PrivacySection t={t} lang={lang} />
-      <InstallSection t={t} lang={lang} />
+      <HowSection t={t} />
+      <UkraineSection t={t} />
+      <PrivacySection t={t} />
+      <InstallSection t={t} />
       <FaqSection t={t} />
       <FooterSection t={t} />
 

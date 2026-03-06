@@ -1,14 +1,12 @@
 import Image from "next/image";
 import { Shield } from "feather-icons-react";
 import { HomeCopy } from "./types";
-import { LangKey } from "../../src/types";
 
 type HeroSectionProps = {
   t: HomeCopy;
-  lang: LangKey;
 };
 
-export function HeroSection({ t, lang }: HeroSectionProps) {
+export function HeroSection({ t }: HeroSectionProps) {
   return (
     <section
       className="mx-auto max-w-6xl px-6 pb-24 pt-16 md:pt-24"
@@ -40,11 +38,7 @@ export function HeroSection({ t, lang }: HeroSectionProps) {
             </div>
             <p className="text-sm">{t.hero.highlight}</p>
           </div>
-          <p className="max-w-2xl text-sm leading-7 text-white/55">
-            {lang === "en"
-              ? "Safe helps friends, partners, and families see who is safe, who is in shelter, who is behind two walls, and who may need urgent attention."
-              : "Safe допомагає друзям, партнерам і родинам бачити, хто в безпеці, хто в укритті, хто за двома стінами, а хто може потребувати термінової уваги."}
-          </p>
+          <p className="max-w-2xl text-sm leading-7 text-white/55">{t.hero.description}</p>
         </div>
         <div className="relative flex h-full animate-float-delayed" data-reveal>
           <Image
@@ -72,9 +66,11 @@ export function HeroSection({ t, lang }: HeroSectionProps) {
         </div>
         <div className="glass rounded-3xl p-6 md:col-span-2">
           <div className="flex flex-wrap items-center gap-4 text-sm text-white/70">
-            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2">One tap: I’m Safe</div>
-            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2">In shelter / Behind two walls / I’m in danger</div>
-            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2">Get notified when someone checks in</div>
+            {t.hero.pills.map(pill => (
+              <div key={pill} className="rounded-full border border-white/10 bg-white/5 px-4 py-2">
+                {pill}
+              </div>
+            ))}
           </div>
         </div>
       </div>

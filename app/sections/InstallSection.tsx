@@ -1,13 +1,11 @@
 import { APP_STORE_URL, GOOGLE_PLAY_URL } from "../../src/consts";
 import { HomeCopy } from "./types";
-import { LangKey } from "../../src/types";
 
 type InstallSectionProps = {
   t: HomeCopy;
-  lang: LangKey;
 };
 
-export function InstallSection({ t, lang }: InstallSectionProps) {
+export function InstallSection({ t }: InstallSectionProps) {
   return (
     <section id="install" className="mx-auto max-w-6xl px-6 pb-24" aria-labelledby="install-title">
       <div className="glass rounded-3xl p-8 md:p-10" data-reveal>
@@ -18,11 +16,7 @@ export function InstallSection({ t, lang }: InstallSectionProps) {
             </h2>
             <p className="mt-4 text-white/70">{t.install.text}</p>
             <p className="mt-3 text-sm text-white/60">{t.install.note}</p>
-            <p className="mt-6 max-w-xl text-sm leading-7 text-white/55">
-              {lang === "en"
-                ? "Install the safety app for iPhone or Android to start sending fast status updates, invite trusted contacts, and receive notifications when someone checks in."
-                : "Встановіть додаток безпеки на iPhone або Android, щоб надсилати швидкі оновлення статусу, запрошувати близькі контакти та отримувати сповіщення, коли хтось відмічається."}
-            </p>
+            <p className="mt-6 max-w-xl text-sm leading-7 text-white/55">{t.install.description}</p>
           </div>
           <div className="grid gap-4">
             <a
@@ -39,9 +33,7 @@ export function InstallSection({ t, lang }: InstallSectionProps) {
             >
               <div className="button-primary w-full text-center font-semibold">{t.install.googlePlay}</div>
             </a>
-            <p className="text-xs text-white/50">
-              {lang === "en" ? "Available now on iOS and Android." : "Доступно вже зараз на iOS та Android."}
-            </p>
+            <p className="text-xs text-white/50">{t.install.availability}</p>
           </div>
         </div>
       </div>
