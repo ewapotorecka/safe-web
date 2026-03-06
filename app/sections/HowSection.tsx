@@ -23,8 +23,8 @@ export function HowSection({ t }: HowSectionProps) {
               style={{ transitionDelay: `${index * 90}ms` }}
             >
               <div className="flex items-start gap-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-mint/20 text-sm font-semibold text-mint">
-                  0{index + 1}
+                <div className="flex min-h-10 min-w-10 items-center justify-center rounded-full bg-mint/20 text-sm font-semibold text-mint">
+                  {index + 1}
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">{step.title}</h3>
