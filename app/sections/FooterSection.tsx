@@ -15,6 +15,9 @@ export function FooterSection({ t }: FooterSectionProps) {
           <a href="/terms" className="transition hover:text-white">
             {t.footer.terms}
           </a>
+          <a href="/delete-account" className="transition hover:text-white">
+            {t.footer.deleteAccount}
+          </a>
           <a href="/contact" className="transition hover:text-white">
             {t.footer.contact}
           </a>
