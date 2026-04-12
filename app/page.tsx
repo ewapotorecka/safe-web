@@ -42,7 +42,7 @@ export default function Home() {
     <main className="relative overflow-hidden">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData(lang)) }}
       />
 
       <Header t={t} lang={lang} setLang={setLang} />
