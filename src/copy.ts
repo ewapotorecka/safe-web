@@ -11,7 +11,8 @@ export const COPY = {
       badge: 'Calm, clear, and fast',
       title: 'Safe — quick safety check-ins for you and your trusted contacts',
       subtitle:
-        'Safe is a privacy-first safety check-in app that helps people in Ukraine and their families share status updates in seconds without panic.',
+        'When an air alarm sounds, your family shouldn\'t be left wondering. One tap tells them you\'re safe.',
+      origin: 'Built in Ukraine by a team with family serving in the military.',
       ctaPrimary: 'Get the app',
       ctaSecondary: 'View features',
       highlight: 'One tap: I’m Safe',
@@ -168,7 +169,8 @@ export const COPY = {
       badge: 'Спокійно, чітко, швидко',
       title: 'Safe — швидкі перевірки безпеки для вас і ваших близьких',
       subtitle:
-        'Safe — це додаток для швидких перевірок безпеки, який допомагає людям в Україні та їхнім близьким ділитися статусом за секунди без паніки.',
+        'Коли лунає тривога, ваша родина не повинна гадати. Один дотик — і вони знають, що ви в безпеці.',
+      origin: 'Створено в Україні командою, у якої рідні служать у армії.',
       ctaPrimary: 'Встановити додаток',
       ctaSecondary: 'Дивитися можливості',
       highlight: 'Одне натискання: Я в безпеці',

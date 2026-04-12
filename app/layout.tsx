@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Safe"
   },
   description:
-    "Safe is a safety check-in app for Ukraine, families, and trusted contacts. Share status updates, location with manual override, and get notified when someone checks in.",
+    "Safe is a free app for people in Ukraine. Share your status with family in one tap — safe, in shelter, or in danger. Available on iOS and Android.",
   keywords: [
     "Safe app",
     "safety check-in app",
@@ -36,17 +36,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Safe",
-    title: "Safe | Quick safety check-ins for trusted contacts",
+    title: "Safe — one tap tells your family you're safe",
     description:
-      "One-tap safety updates, trusted contacts, status notifications, and privacy-first location sharing for people in Ukraine and their families.",
+      "When an air alarm sounds, your family shouldn't be left wondering. One tap tells them you're safe. Free app for Ukraine, iOS & Android.",
+    url: siteUrl ?? "/",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Safe app — one-tap safety check-ins for families in Ukraine"
+      }
+    ],
     locale: "en_US",
     alternateLocale: ["uk_UA"]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Safe | Quick safety check-ins for trusted contacts",
+    title: "Safe — one tap tells your family you're safe",
     description:
-      "One-tap safety updates, trusted contacts, notifications, and privacy-first location sharing."
+      "When an air alarm sounds, your family shouldn't be left wondering. One tap tells them you're safe. Free for Ukraine, iOS & Android.",
+    images: ["/og-image.png"]
   },
   robots: {
     index: true,
