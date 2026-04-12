@@ -12,7 +12,7 @@ export const COPY = {
       title: 'Safe — quick safety check-ins for you and your trusted contacts',
       subtitle:
         'When an air alarm sounds, your family shouldn\'t be left wondering. One tap tells them you\'re safe.',
-      origin: 'Built in Ukraine by a team with family serving in the military.',
+      origin: 'Built in Ukraine by a team with relatives and friends serving in the military.',
       ctaPrimary: 'Get the app',
       ctaSecondary: 'View features',
       highlight: 'One tap: I’m Safe',
@@ -170,7 +170,7 @@ export const COPY = {
       title: 'Safe — швидкі перевірки безпеки для вас і ваших близьких',
       subtitle:
         'Коли лунає тривога, ваша родина не повинна гадати. Один дотик — і вони знають, що ви в безпеці.',
-      origin: 'Створено в Україні командою, у якої рідні служать у армії.',
+      origin: 'Створено в Україні командою, у якої рідні та друзі служать у армії.',
       ctaPrimary: 'Встановити додаток',
       ctaSecondary: 'Дивитися можливості',
       highlight: 'Одне натискання: Я в безпеці',

@@ -17,7 +17,7 @@ import { FaqSection } from "./sections/FaqSection";
 import { FooterSection } from "./sections/FooterSection";
 
 export default function Home() {
-  const [lang, setLang] = useState<LangKey>("en");
+  const [lang, setLang] = useState<LangKey>("ua");
 
   useReveal();
 

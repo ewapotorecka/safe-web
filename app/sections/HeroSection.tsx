@@ -24,7 +24,7 @@ export function HeroSection({ t }: HeroSectionProps) {
             {t.hero.title}
           </h1>
           <p className="text-lg text-white/70 md:text-xl">{t.hero.subtitle}</p>
-          <p className="text-sm text-mint/80">{t.hero.origin}</p>
+          <p className="text-md text-mint/80">{t.hero.origin}</p>
           <div className="flex flex-wrap gap-4">
             <a href="#install" className="button-primary">
               {t.hero.ctaPrimary}
