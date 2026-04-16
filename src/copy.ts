@@ -153,6 +153,7 @@ export const COPY = {
       privacy: "Privacy Policy",
       terms: "Terms",
       deleteAccount: "Delete Account",
+      support: "Support",
       contact: "Contact",
       rights: "Made with care for families and friends." 
     }
@@ -312,6 +313,7 @@ export const COPY = {
       privacy: "Політика приватності",
       terms: "Умови",
       deleteAccount: "Видалити акаунт",
+      support: "Підтримка",
       contact: "Контакт",
       rights: "З турботою про родини та друзів." 
     }
