@@ -21,10 +21,19 @@ export default function SupportPage() {
         <p>
           Support email:{" "}
           <a
-            href="mailto:support.meetsafe@gmail.com"
+            href="mailto:info@meetsafe.org"
             className="text-mint transition hover:text-mintLight"
           >
-            support.meetsafe@gmail.com
+            info@meetsafe.org
+          </a>
+        </p>
+        <p>
+          You can also reach out on Telegram:{" "}
+          <a
+            href="https://t.me/+W19RQhnW6blmYzk8"
+            className="text-mint transition hover:text-mintLight"
+          >
+            https://t.me/+W19RQhnW6blmYzk8
           </a>
         </p>
       </div>
