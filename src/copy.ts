@@ -29,7 +29,7 @@ export const COPY = {
       items: [
         'Invite trusted contacts',
         'Get notified when someone checks in',
-        'Auto location with manual override (soon)',
+        'Auto location with manual override',
       ],
     },
     features: {
@@ -50,7 +50,7 @@ export const COPY = {
           text: 'Get notified when someone checks in, and ping a friend if they have not updated.',
         },
         {
-          title: 'Location clarity (soon)',
+          title: 'Location clarity',
           text: 'Auto location with manual override — clearly marked as device or manual.',
         },
         {
@@ -58,7 +58,7 @@ export const COPY = {
           text: 'Ping a friend to encourage a quick check-in when it matters most.',
         },
         {
-          title: 'Regional alerts (soon)',
+          title: 'Regional alerts',
           text: 'Subtle reminder to update your status when regional air-raid alerts are detected.',
         },
       ],
@@ -87,9 +87,9 @@ export const COPY = {
     },
     ukraine: {
       title: 'Designed for Ukraine',
-      text: 'Safe supports Ukrainian and English (soon), with a calm interface built for real moments in Ukraine. Soon, opt into optional regional air-raid alerts integration when available.',
+      text: 'Safe supports Ukrainian and English, with a calm interface built for real moments in Ukraine. Opt into optional regional air-raid alerts integration when available.',
       languageLabel: 'Language',
-      alertsSoon: 'Air-raid alerts by region (soon)',
+      alertsSoon: 'Air-raid alerts by region',
     },
     overview: {
       primaryTitle: 'A safety check-in app built for real-life urgency',
@@ -188,7 +188,7 @@ export const COPY = {
       items: [
         'Запрошуйте близьких',
         'Отримуйте сповіщення, коли хтось оновлює статус',
-        'Автоматичне встановлення вашого місцеположення з можливістю редагування (незабаром)',
+        'Автоматичне встановлення вашого місцеположення з можливістю редагування',
       ],
     },
     features: {
@@ -208,7 +208,7 @@ export const COPY = {
           text: 'Отримуйте сповіщення, коли хтось оновляє статус та пінгуйте друзів, якщо немає оновлень.',
         },
         {
-          title: 'Локація під контролем (незабаром)',
+          title: 'Локація під контролем',
           text: 'Автоматичне встановлення вашого місцеположення з можливістю редагування — з автопозначкою або вручну.',
         },
         {
@@ -216,7 +216,7 @@ export const COPY = {
           text: 'Пінгуйте друзів — делікатний поштовх для швидкого чек-іну.',
         },
         {
-          title: 'Регіональні тривоги (незабаром)',
+          title: 'Регіональні тривоги',
           text: 'Делікатне нагадування про оновлення статусу у разі повітряної тривоги у вашому регіоні.',
         },
       ],
@@ -245,9 +245,9 @@ export const COPY = {
     },
     ukraine: {
       title: 'Створено для України',
-      text: 'Safe підтримує українську та англійську (незабаром), зі спокійним інтерфейсом для реальних моментів в Україні. Незабаром — опційна інтеграція регіональних тривог.',
+      text: 'Safe підтримує українську та англійську, зі спокійним інтерфейсом для реальних моментів в Україні. Опційна інтеграція регіональних тривог.',
       languageLabel: 'Мова',
-      alertsSoon: 'Повітряні тривоги за регіонами (незабаром)',
+      alertsSoon: 'Повітряні тривоги за регіонами',
     },
     overview: {
       primaryTitle:
