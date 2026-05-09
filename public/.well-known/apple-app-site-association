@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "3N78PKUHP8.org.safeapp.mobile",
+        "paths": [
+          "/accept/*",
+          "/accept",
+          "/accept/*?*"
+        ]
+      }
+    ]
+  }
+}
