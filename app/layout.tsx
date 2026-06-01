@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Safe"
   },
   description:
-    "Safe is a free app for people in Ukraine. Share your status with family in one tap — safe, in shelter, or in danger. Available on iOS and Android.",
+    "Safe is a free app for people in Ukraine. Share your status with family in one tap — safe, in shelter, or in behind two walls. Available on iOS and Android.",
   keywords: [
     "Safe app",
     "safety check-in app",

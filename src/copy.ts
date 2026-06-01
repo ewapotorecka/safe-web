@@ -20,7 +20,7 @@ export const COPY = {
         'Safe helps friends, partners, and families see who is safe, who is in shelter, who is behind two walls, and who may need urgent attention.',
       pills: [
         'One tap: I’m Safe',
-        'In shelter / Behind two walls / I’m in danger',
+        'In shelter / Behind two walls',
         'Get notified when someone checks in',
       ],
     },
@@ -39,7 +39,7 @@ export const COPY = {
       cards: [
         {
           title: 'Instant check-ins',
-          text: 'One tap: I’m Safe, or choose: In shelter / Behind two walls / I’m in danger.',
+          text: 'One tap: I’m Safe, or choose: In shelter / Behind two walls.',
         },
         {
           title: 'Trusted circles',
@@ -73,7 +73,7 @@ export const COPY = {
         },
         {
           title: 'Check in with one tap',
-          text: 'Pick a status: I’m Safe, In shelter, Behind two walls, or I’m in danger.',
+          text: 'Pick a status: I’m Safe, In shelter, Behind two walls.',
         },
         {
           title: 'Share your location',
@@ -94,7 +94,7 @@ export const COPY = {
     overview: {
       primaryTitle: 'A safety check-in app built for real-life urgency',
       primaryText:
-        'Safe is designed for people in Ukraine who need a fast, private way to update trusted contacts. Instead of long messages, one tap can tell the people who matter most whether you are safe, in shelter, behind two walls, or in danger.',
+        'Safe is designed for people in Ukraine who need a fast, private way to update trusted contacts. Instead of long messages, one tap can tell the people who matter most whether you are safe, in shelter, behind two walls.',
       secondaryTitle: 'Clear enough for family, careful enough for privacy',
       secondaryText:
         'Location support is explicit, with auto location from the device and manual override when you want more control. Safe focuses on trusted contacts, notifications, and calm communication instead of noise.',
@@ -179,7 +179,7 @@ export const COPY = {
         'Safe допомагає друзям, партнерам і родинам бачити, хто в безпеці, хто в укритті, хто за двома стінами, а хто може потребувати термінової уваги.',
       pills: [
         'Одне натискання: Я в безпеці',
-        'В укритті / За двома стінами / Я в небезпеці',
+        'В укритті / За двома стінами',
         'Отримуйте сповіщення, коли хтось оновлює статус',
       ],
     },
@@ -197,7 +197,7 @@ export const COPY = {
       cards: [
         {
           title: 'Миттєві статуси',
-          text: 'Одне натискання: Я в безпеці або оберіть: В укритті / За двома стінами / Я в небезпеці.',
+          text: 'Одне натискання: Я в безпеці або оберіть: В укритті / За двома стінами.',
         },
         {
           title: 'Коло довіри',
@@ -231,7 +231,7 @@ export const COPY = {
         },
         {
           title: 'Один дотик',
-          text: 'Статуси: Я в безпеці, В укритті, За двома стінами або Я в небезпеці.',
+          text: 'Статуси: Я в безпеці, В укритті, За двома стінами.',
         },
         {
           title: 'Локація — як вам зручно',
@@ -253,7 +253,7 @@ export const COPY = {
       primaryTitle:
         'Додаток для перевірки безпеки, створений для реальної терміновості',
       primaryText:
-        'Safe створений для людей в Україні, яким потрібен швидкий і приватний спосіб оновити статус для близьких. Замість довгих повідомлень один дотик дає зрозуміти, чи ви в безпеці, в укритті, за двома стінами або в небезпеці.',
+        'Safe створений для людей в Україні, яким потрібен швидкий і приватний спосіб оновити статус для близьких. Замість довгих повідомлень один дотик дає зрозуміти, чи ви в безпеці, в укритті, за двома стінами.',
       secondaryTitle:
         'Достатньо зрозумілий для родини, достатньо обережний для приватності',
       secondaryText:
