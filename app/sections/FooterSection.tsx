@@ -47,11 +47,11 @@ export function FooterSection({ t }: FooterSectionProps) {
             target="_blank"
           >
             <img
-              src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1244328&theme=neutral"
+              src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1244328&theme=neutral&size=small"
               alt="Safe - One&#0032;tap&#0032;to&#0032;tell&#0032;everyone&#0032;you&#0039;re&#0032;okay | Product Hunt"
               style={{ width: '250px', height: '54px' }}
-              width="250"
-              height="54"
+              width="86"
+              height="32"
             />
           </a>
         </div>
