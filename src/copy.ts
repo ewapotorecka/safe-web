@@ -11,8 +11,9 @@ export const COPY = {
       badge: 'Calm, clear, and fast',
       title: 'Safe — quick safety check-ins for you and your trusted contacts',
       subtitle:
-        'When an air alarm sounds, your family shouldn\'t be left wondering. One tap tells them you\'re safe.',
-      origin: 'Built in Ukraine by a team with relatives and friends serving in the military.',
+        "When an air alarm sounds, your family shouldn't be left wondering. One tap tells them you're safe.",
+      origin:
+        'Built in Ukraine by a team with relatives and friends serving in the military.',
       ctaPrimary: 'Get the app',
       ctaSecondary: 'View features',
       highlight: 'One tap: I’m Safe',
@@ -145,18 +146,18 @@ export const COPY = {
         },
         {
           q: 'How are alerts handled?',
-          a: 'Regional air-raid alerts are optional and planned as an integration, not required.',
+          a: 'The app reminds you to update your status when an alert starts or ends in your region.',
         },
       ],
     },
     footer: {
-      privacy: "Privacy Policy",
-      terms: "Terms",
-      deleteAccount: "Delete Account",
-      support: "Support",
-      contact: "Contact",
-      rights: "Made with care for families and friends." 
-    }
+      privacy: 'Privacy Policy',
+      terms: 'Terms',
+      deleteAccount: 'Delete Account',
+      support: 'Support',
+      contact: 'Contact',
+      rights: 'Made with care for families and friends.',
+    },
   },
   ua: {
     nav: {
@@ -168,10 +169,12 @@ export const COPY = {
     },
     hero: {
       badge: 'Спокійно, чітко, швидко',
-      title: 'Safe — швидкі перевірки безпеки для вас і ваших близьких',
+      title:
+        'Safe — повідомляйте рідних про свій статус і стежте за їхньою безпекою',
       subtitle:
-        'Коли лунає тривога, ваша родина не повинна гадати. Один дотик — і вони знають, що ви в безпеці.',
-      origin: 'Створено в Україні командою, у якої рідні та друзі служать у армії.',
+        'Коли лунає тривога, ваша родина не повинна залишатись без звістки. Один дотик — і вони знають, що ви в безпеці.',
+      origin:
+        'Створено в Україні командою, у якої рідні та друзі служать у армії.',
       ctaPrimary: 'Встановити додаток',
       ctaSecondary: 'Дивитися можливості',
       highlight: 'Одне натискання: Я в безпеці',
@@ -235,7 +238,7 @@ export const COPY = {
         },
         {
           title: 'Локація — як вам зручно',
-          text: 'Автоматичне встановлення вашого місцеположення з можливістю редагування, ділися своїм місцезнаходженням з довіреними контактами.',
+          text: 'Автоматичне встановлення вашого місцеположення з можливістю редагування. Ділись своїм місцезнаходженням з довіреними контактами.',
         },
         {
           title: 'Будьте на зв’язку',
@@ -245,13 +248,13 @@ export const COPY = {
     },
     ukraine: {
       title: 'Створено для України',
-      text: 'Safe підтримує українську та англійську, зі спокійним інтерфейсом для реальних моментів в Україні. Опційна інтеграція регіональних тривог.',
+      text: 'Safe підтримує українську та англійську, зі спокійним інтерфейсом для використання під час тривог в Україні. Опційна інтеграція регіональних тривог.',
       languageLabel: 'Мова',
       alertsSoon: 'Повітряні тривоги за регіонами',
     },
     overview: {
       primaryTitle:
-        'Додаток для перевірки безпеки, створений для реальної терміновості',
+        'Додаток для перевірки безпеки, створений для ситуацій, де час має значення',
       primaryText:
         'Safe створений для людей в Україні, яким потрібен швидкий і приватний спосіб оновити статус для близьких. Замість довгих повідомлень один дотик дає зрозуміти, чи ви в безпеці, в укритті, за двома стінами.',
       secondaryTitle:
@@ -262,15 +265,15 @@ export const COPY = {
     privacy: {
       title: 'Приватність і контроль',
       subtitle:
-        'Safe створено так, щоб ви контролювали свої дані навіть у термінові моменти.',
+        'Safe створено так, щоб ви контролювали свої дані навіть у моменти небезпеки.',
       items: [
         {
           title: 'Ви вирішуєте',
-          text: 'Діліться лише статусом і локацією, яку хочете. Можна вручну.',
+          text: 'Діліться лише тим, чим хочете — статусом або локацією. Можна вручну.',
         },
         {
           title: 'Спокійна комунікація',
-          text: 'Safe сфокусований на сопкійному оновленні статусу замість гучних чатів та публічних каналів.',
+          text: 'Safe сфокусований на спокійному оновленні статусу замість гучних чатів та публічних каналів.',
         },
         {
           title: 'Повага до приватності',
@@ -305,17 +308,17 @@ export const COPY = {
         },
         {
           q: 'Як працюють тривоги?',
-          a: 'Регіональні повітряні тривоги — опційна інтеграція в планах.',
+          a: 'Застосунок нагадує про оновлення статусу після початку і закінчення тривоги у вашому регіоні.',
         },
       ],
     },
     footer: {
-      privacy: "Політика приватності",
-      terms: "Умови",
-      deleteAccount: "Видалити акаунт",
-      support: "Підтримка",
-      contact: "Контакт",
-      rights: "З турботою про родини та друзів." 
-    }
-  }
+      privacy: 'Політика приватності',
+      terms: 'Умови',
+      deleteAccount: 'Видалити акаунт',
+      support: 'Підтримка',
+      contact: 'Контакт',
+      rights: 'З турботою про родини та друзів.',
+    },
+  },
 };
